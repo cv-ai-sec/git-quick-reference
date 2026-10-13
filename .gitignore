@@ -1,0 +1,29 @@
+# --- Secrets and environment ---
+.env
+.env.*
+!*.example
+*.pem
+*.key
+
+# --- Runtime data, logs, caches ---
+*.log
+[Ll]ogs/
+
+# --- Private buildout, tooling, and records: kept outside this repository ---
+infra/
+config/
+scripts/
+*kill*
+*[Rr][Ee][Ss][Tt][Rr][Ii][Cc][Tt][Ee][Dd]*
+
+# --- Leftovers and caches ---
+*.old
+*.bak
+*.orig
+*~
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
